@@ -1,0 +1,22 @@
+#main-logo{
+    vertical-align: middle;
+    border-style: none;
+    height: -webkit-fill-available !important;
+    width: 14vw !important;
+}
+
+.theme-horizontal .sidenav-horizontal-next, .theme-horizontal .sidenav-horizontal-prev {
+    position: relative;
+     display: none !important;
+     flex: 0 0 auto;
+     width: 2.25rem;
+     background-color: #101b33;
+     z-index: 9;
+}
+
+.pcoded-navbar.theme-horizontal .sidenav-horizontal-wrapper {
+    display: flex;
+    justify-content: space-evenly !important;
+    /* align-items: center; */
+}
+
